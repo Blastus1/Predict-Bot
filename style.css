@@ -1,0 +1,29 @@
+ body {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #D93D3D;
+}
+
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1.5px solid #B63F3F;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: #EE2B2B;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #9F3636;
+}
